@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Super Mercado Central">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 1378932603 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DX staff shifts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DX staff shifts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1378932603 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Descripcion</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DX staff shifts - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1378932603 - Field 2242671886 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>End time</source>
+          <target state="translated">Hora de Salida</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DX staff shifts - Field End time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1378932603 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DX staff shifts - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1378932603 - Field 3425200303 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Start time</source>
+          <target state="translated">Hora de inicio</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DX staff shifts - Field Start time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2873479310 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Staff Shifts Card</source>
+          <target state="translated">Tarjeta de turnos del personal</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DXPG Staff Shifts Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2873479310 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DXPG Staff Shifts Card - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2873479310 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Description field.</source>
+          <target state="translated">Especifica el valor del campo Descripción</target>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DXPG Staff Shifts Card - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2873479310 - Control 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DXPG Staff Shifts Card - Control Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2873479310 - Control 2242671886 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the End time field.</source>
+          <target state="translated">Especifica el valor del campo Hora de finalización</target>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DXPG Staff Shifts Card - Control End time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2873479310 - Control 2242671886 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>End time</source>
+          <target state="translated">Hora de Salida</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DXPG Staff Shifts Card - Control End time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2873479310 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Code field.</source>
+          <target state="translated">Especifica el valor del campo Código.</target>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DXPG Staff Shifts Card - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2873479310 - Control 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <target state="translated">Codigo.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DXPG Staff Shifts Card - Control No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2873479310 - Control 3425200303 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Start time field.</source>
+          <target state="translated">Especifica el valor del campo Hora de inicio.</target>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DXPG Staff Shifts Card - Control Start time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2873479310 - Control 3425200303 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Start time</source>
+          <target state="translated">Hora de inicio.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DXPG Staff Shifts Card - Control Start time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3867786600 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Staff Shifts List</source>
+          <target state="translated">Lista de turnos del personal.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DXPG Staff Shifts List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3867786600 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Description field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DXPG Staff Shifts List - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3867786600 - Control 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Descripcion.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DXPG Staff Shifts List - Control Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3867786600 - Control 2242671886 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the End time field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DXPG Staff Shifts List - Control End time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3867786600 - Control 2242671886 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>End time</source>
+          <target state="translated">Hora de Salida.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DXPG Staff Shifts List - Control End time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3867786600 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the No. field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DXPG Staff Shifts List - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3867786600 - Control 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DXPG Staff Shifts List - Control No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3867786600 - Control 3425200303 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Start time field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DXPG Staff Shifts List - Control Start time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3867786600 - Control 3425200303 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Start time</source>
+          <target state="translated">Hora de Inicio.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DXPG Staff Shifts List - Control Start time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1990636219 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DX Sales report by shift</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DX Sales report by shift - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1990636219 - NamedType 1987762555" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <target state="translated">Pagina.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DX Sales report by shift - NamedType CurrReport_PAGENOCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1990636219 - NamedType 2463599964" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Amount with Discount</source>
+          <target state="translated">Monto de venta con descuento.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DX Sales report by shift - NamedType Sales_Amount_with_DiscountCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1990636219 - NamedType 878319443" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Staff Name</source>
+          <target state="translated">Nombre del Empleado.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DX Sales report by shift - NamedType Staff__Name</note>
+        </trans-unit>
+        <trans-unit id="Report 1990636219 - NamedType 221731396" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Statement No.</source>
+          <target state="translated">No. Declaracion</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DX Sales report by shift - NamedType Statement_No___CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1990636219 - NamedType 1145056680" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Statement Total</source>
+          <target state="translated">Total en Declaracion</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DX Sales report by shift - NamedType Statement_TotalCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1990636219 - NamedType 529608464" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Statement - Total</source>
+          <target state="translated">Total - Declaracion</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DX Sales report by shift - NamedType Statement___TotalCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1990636219 - NamedType 2083347877" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Store Name</source>
+          <target state="translated">Nombre de Tiemda</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DX Sales report by shift - NamedType Store_NameCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1990636219 - NamedType 940547897" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tender Type Name</source>
+          <target state="translated">Nombre del tipo de licitación</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DX Sales report by shift - NamedType Tender_Type_NameCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1990636219 - NamedType 1583171122" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DX Sales report by shift - NamedType TotalCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1990636219 - ReportLabel 2393797788" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <target state="translated">Pagina</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DX Sales report by shift - ReportLabel l_Page</note>
+        </trans-unit>
+        <trans-unit id="Report 1990636219 - ReportLabel 2266119830" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales report by shifts</source>
+          <target state="translated">Informe de ventas por turnos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DX Sales report by shift - ReportLabel l_ReportName</note>
+        </trans-unit>
+        <trans-unit id="Report 1990636219 - ReportLabel 3389612399" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sub-Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DX Sales report by shift - ReportLabel l_SubTotal</note>
+        </trans-unit>
+        <trans-unit id="Report 1990636219 - ReportLabel 1004808443" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DX Sales report by shift - ReportLabel l_Total</note>
+        </trans-unit>
+        <trans-unit id="Report 1990636219 - ReportLabel 194619369" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales report by shifts</source>
+          <target state="translated">Reporte de Ventas por turnos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DX Sales report by shift - ReportLabel StatementTotal</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4178761266 - Action 3375155882 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3732044662">
+          <source>Report</source>
+          <target state="translated">Reporte</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DX LSC Posted Statement List - Action Report - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4178761266 - Action 3971757913 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3732044662">
+          <source>&amp;Print</source>
+          <target state="translated">Imprimir</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DX LSC Posted Statement List - Action Posted Report - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1688692968 - Control 1452236232 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 302399820">
+          <source>shift</source>
+          <target state="translated">Turnos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DX LSC STAFF Staff Card - Control DX shift - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1688692968 - Control 1452236232 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 302399820">
+          <source>shift</source>
+          <target state="translated">Turnos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DX LSC STAFF Staff Card - Control DX shift - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1058981018 - Field 2810708428 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1946670238">
+          <source>shift</source>
+          <target state="translated">Turnos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension DX LSC Staff - Field shift - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

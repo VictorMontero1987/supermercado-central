@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
+    </DataSource>
+  </DataSources>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <Height>2in</Height>
+        <Style />
+      </Body>
+      <Width>6.5in</Width>
+      <Page>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <ReportParameters>
+    <ReportParameter Name="l_ReportName">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>l_ReportName</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>l_ReportName</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="l_Page">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>l_Page</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>l_Page</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="l_Total">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>l_Total</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>l_Total</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="StatementTotal">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>StatementTotal</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>StatementTotal</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Statement___No__Caption">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>Statement___No__Caption</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Statement___No__Caption</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Statement___Store_No__Caption">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>Statement___Store_No__Caption</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Statement___Store_No__Caption</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Statement___Trans__Ending_Date_Caption">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>Statement___Trans__Ending_Date_Caption</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Statement___Trans__Ending_Date_Caption</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Statement___Posted_Date_Caption">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>Statement___Posted_Date_Caption</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Statement___Posted_Date_Caption</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Statement___Sales_Amount_Caption">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>Statement___Sales_Amount_Caption</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Statement___Sales_Amount_Caption</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Statement___Line_Discount_Caption">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>Statement___Line_Discount_Caption</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Statement___Line_Discount_Caption</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Statement___VAT_Amount_Caption">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>Statement___VAT_Amount_Caption</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Statement___VAT_Amount_Caption</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Statement___Total_Discount_Caption">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>Statement___Total_Discount_Caption</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Statement___Total_Discount_Caption</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Statement___IncomeCaption">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>Statement___IncomeCaption</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Statement___IncomeCaption</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Statement___ExpensesCaption">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>Statement___ExpensesCaption</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Statement___ExpensesCaption</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Posted_Statement_Line__Staff_ID_Caption">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>Posted_Statement_Line__Staff_ID_Caption</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Posted_Statement_Line__Staff_ID_Caption</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Posted_Statement_Line__POS_Terminal_No__Caption">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>Posted_Statement_Line__POS_Terminal_No__Caption</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Posted_Statement_Line__POS_Terminal_No__Caption</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Posted_Statement_Line__Tender_Type_Caption">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>Posted_Statement_Line__Tender_Type_Caption</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Posted_Statement_Line__Tender_Type_Caption</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Posted_Statement_Line__Tender_Type_Card_No__Caption">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>Posted_Statement_Line__Tender_Type_Card_No__Caption</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Posted_Statement_Line__Tender_Type_Card_No__Caption</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Posted_Statement_Line__Tender_Type_Name_Caption">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>Posted_Statement_Line__Tender_Type_Name_Caption</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Posted_Statement_Line__Tender_Type_Name_Caption</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Posted_Statement_Line__Currency_Code_Caption">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>Posted_Statement_Line__Currency_Code_Caption</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Posted_Statement_Line__Currency_Code_Caption</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Posted_Statement_Line__Counted_Amount_in_LCY_Caption">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>Posted_Statement_Line__Counted_Amount_in_LCY_Caption</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Posted_Statement_Line__Counted_Amount_in_LCY_Caption</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Posted_Statement_Line__Trans__Amount_in_LCY_Caption">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>Posted_Statement_Line__Trans__Amount_in_LCY_Caption</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Posted_Statement_Line__Trans__Amount_in_LCY_Caption</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Posted_Statement_Line__Difference_in_LCY_Caption">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>Posted_Statement_Line__Difference_in_LCY_Caption</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Posted_Statement_Line__Difference_in_LCY_Caption</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="shift_LSCStaffCaption">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>shift_LSCStaffCaption</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>shift_LSCStaffCaption</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Last_NameCaption">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>Last_NameCaption</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Last_NameCaption</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="First_NameCaption">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>First_NameCaption</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>First_NameCaption</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+</Code>
+  <Language>=User!Language</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>0eeb6585-38ae-40f1-885b-8d50088d51b4</rd:ReportID>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="COMPANYNAME">
+          <DataField>COMPANYNAME</DataField>
+        </Field>
+        <Field Name="FORMAT_TODAY_0_4_">
+          <DataField>FORMAT_TODAY_0_4_</DataField>
+        </Field>
+        <Field Name="Statement___No__">
+          <DataField>Statement___No__</DataField>
+        </Field>
+        <Field Name="Statement___Store_No__">
+          <DataField>Statement___Store_No__</DataField>
+        </Field>
+        <Field Name="Statement___Store_Name">
+          <DataField>Statement___Store_Name</DataField>
+        </Field>
+        <Field Name="Statement___StoreNameFixed">
+          <DataField>Statement___StoreNameFixed</DataField>
+        </Field>
+        <Field Name="Statement___Trans__Ending_Date_">
+          <DataField>Statement___Trans__Ending_Date_</DataField>
+        </Field>
+        <Field Name="Statement___Posted_Date_">
+          <DataField>Statement___Posted_Date_</DataField>
+        </Field>
+        <Field Name="Statement___Sales_Amount_">
+          <DataField>Statement___Sales_Amount_</DataField>
+        </Field>
+        <Field Name="Statement___Sales_Amount_Format">
+          <DataField>Statement___Sales_Amount_Format</DataField>
+        </Field>
+        <Field Name="Statement___Line_Discount_">
+          <DataField>Statement___Line_Discount_</DataField>
+        </Field>
+        <Field Name="Statement___Line_Discount_Format">
+          <DataField>Statement___Line_Discount_Format</DataField>
+        </Field>
+        <Field Name="Statement___VAT_Amount_">
+          <DataField>Statement___VAT_Amount_</DataField>
+        </Field>
+        <Field Name="Statement___VAT_Amount_Format">
+          <DataField>Statement___VAT_Amount_Format</DataField>
+        </Field>
+        <Field Name="Statement___Total_Discount_">
+          <DataField>Statement___Total_Discount_</DataField>
+        </Field>
+        <Field Name="Statement___Total_Discount_Format">
+          <DataField>Statement___Total_Discount_Format</DataField>
+        </Field>
+        <Field Name="Statement___Income">
+          <DataField>Statement___Income</DataField>
+        </Field>
+        <Field Name="Statement___IncomeFormat">
+          <DataField>Statement___IncomeFormat</DataField>
+        </Field>
+        <Field Name="Statement___Expenses">
+          <DataField>Statement___Expenses</DataField>
+        </Field>
+        <Field Name="Statement___ExpensesFormat">
+          <DataField>Statement___ExpensesFormat</DataField>
+        </Field>
+        <Field Name="Statement___Sales_Amount_____VAT_Amount____Income___Expenses">
+          <DataField>Statement___Sales_Amount_____VAT_Amount____Income___Expenses</DataField>
+        </Field>
+        <Field Name="Statement___Sales_Amount_____VAT_Amount____Income___ExpensesFormat">
+          <DataField>Statement___Sales_Amount_____VAT_Amount____Income___ExpensesFormat</DataField>
+        </Field>
+        <Field Name="Posted_Statement_Line__Staff_ID_">
+          <DataField>Posted_Statement_Line__Staff_ID_</DataField>
+        </Field>
+        <Field Name="Posted_Statement_Line__POS_Terminal_No__">
+          <DataField>Posted_Statement_Line__POS_Terminal_No__</DataField>
+        </Field>
+        <Field Name="Posted_Statement_Line__Tender_Type_">
+          <DataField>Posted_Statement_Line__Tender_Type_</DataField>
+        </Field>
+        <Field Name="Posted_Statement_Line__Tender_Type_Card_No__">
+          <DataField>Posted_Statement_Line__Tender_Type_Card_No__</DataField>
+        </Field>
+        <Field Name="Posted_Statement_Line__Tender_Type_Name_">
+          <DataField>Posted_Statement_Line__Tender_Type_Name_</DataField>
+        </Field>
+        <Field Name="Posted_Statement_Line__Currency_Code_">
+          <DataField>Posted_Statement_Line__Currency_Code_</DataField>
+        </Field>
+        <Field Name="Posted_Statement_Line__Counted_Amount_in_LCY_">
+          <DataField>Posted_Statement_Line__Counted_Amount_in_LCY_</DataField>
+        </Field>
+        <Field Name="Posted_Statement_Line__Counted_Amount_in_LCY_Format">
+          <DataField>Posted_Statement_Line__Counted_Amount_in_LCY_Format</DataField>
+        </Field>
+        <Field Name="Posted_Statement_Line__Trans__Amount_in_LCY_">
+          <DataField>Posted_Statement_Line__Trans__Amount_in_LCY_</DataField>
+        </Field>
+        <Field Name="Posted_Statement_Line__Trans__Amount_in_LCY_Format">
+          <DataField>Posted_Statement_Line__Trans__Amount_in_LCY_Format</DataField>
+        </Field>
+        <Field Name="Posted_Statement_Line__Difference_in_LCY_">
+          <DataField>Posted_Statement_Line__Difference_in_LCY_</DataField>
+        </Field>
+        <Field Name="Posted_Statement_Line__Difference_in_LCY_Format">
+          <DataField>Posted_Statement_Line__Difference_in_LCY_Format</DataField>
+        </Field>
+        <Field Name="shift_LSCStaff">
+          <DataField>shift_LSCStaff</DataField>
+        </Field>
+        <Field Name="Last_Name">
+          <DataField>Last_Name</DataField>
+        </Field>
+        <Field Name="First_Name">
+          <DataField>First_Name</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
+</Report>

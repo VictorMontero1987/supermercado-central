@@ -1,0 +1,48 @@
+{
+  "id": "0521531f-b1a0-47ea-8a9e-14aea4575308",
+  "name": "Super Mercado Central",
+  "publisher": "Dextra",
+  "version": "22.0.0.4",
+  "brief": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "5ecfc871-5d82-43f1-9c54-59685e82318d",
+      "name": "LS Central",
+      "publisher": "LS Retail",
+      "version": "22.2.0.1000616"
+    },
+    {
+      "id": "2a0547fa-f60f-401d-b1fe-c7c4be8fb230",
+      "name": "LS Central System App",
+      "publisher": "LS Retail",
+      "version": "22.2.0.1000616"
+    }
+   ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "22.0.0.0",
+  "idRanges": [
+    {
+      "from": 50050,
+      "to": 50059
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "features": [
+    "TranslationFile",
+    "GenerateCaptions"
+  ],
+  "runtime": "11.0",
+  "preprocessorSymbols": [
+    "CLEAN22"
+  ]
+}
