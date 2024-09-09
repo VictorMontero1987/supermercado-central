@@ -108,6 +108,10 @@ report 50050 "DX Sales report by shift"
                 {
                     IncludeCaption = true;
                 }
+                column(GArea_; GArea)
+                {
+
+                }
                 dataitem("LSC Staff"; "LSC Staff")
                 {
                     DataItemLinkReference = "Posted Statement Line";
@@ -128,6 +132,37 @@ report 50050 "DX Sales report by shift"
                     {
                     }
                 }
+                trigger OnAfterGetRecord()
+                var
+                    transationHeade: Record "LSC Transaction Header";
+                    PaymentEntry: Record "LSC Trans. Payment Entry";
+                    "LSCPOSTerminalGroupLine": Record "LSC POS Terminal Group Line";
+
+
+
+                begin
+                    Clear(transationHeade);
+                    transationHeade.SetRange("Posted Statement No.", "Posted Statement Line"."Statement No.");
+                    transationHeade.SetRange("Staff ID", "Posted Statement Line"."Staff ID");
+                    if transationHeade.FindFirst() then begin
+                        Clear(PaymentEntry);
+                        PaymentEntry.SetRange("Transaction No.", transationHeade."Transaction No.");
+                        PaymentEntry.SetRange("Tender Type", "Posted Statement Line"."Tender Type");
+                        if PaymentEntry.FindFirst() then begin
+                            Clear(LSCPOSTerminalGroupLine);
+                            LSCPOSTerminalGroupLine.SetRange("Store No.", transationHeade."Store No.");
+                            LSCPOSTerminalGroupLine.SetRange("POS Terminal No.", PaymentEntry."POS Terminal No.");
+                            if LSCPOSTerminalGroupLine.FindFirst() then GArea := LSCPOSTerminalGroupLine."POS Terminal Group Code";
+
+
+
+                        end;
+
+
+                    end;
+
+
+                end;
 
 
             }
@@ -197,6 +232,8 @@ report 50050 "DX Sales report by shift"
         Statement_TotalCaptionLbl: Label 'Statement Total';
         Tender_Type_NameCaptionLbl: Label 'Tender Type Name';
         TotalCaptionLbl: Label 'Total';
+
+        GArea: code[20];
 
 
 }

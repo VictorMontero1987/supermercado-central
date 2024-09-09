@@ -9,7 +9,7 @@
       <am:Name>MSRB</am:Name>
       <am:Version>15.0.20283.0</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2024-09-05T17:07:55.3041630Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2024-09-06T17:08:56.1279437Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
@@ -350,6 +350,186 @@
                               <Style>None</Style>
                             </Border>
                             <BackgroundColor>LightGrey</BackgroundColor>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+                <TablixRow>
+                  <Height>0.635cm</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox113">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox113</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <BackgroundColor>WhiteSmoke</BackgroundColor>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="GArea_4">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!GArea_.Value</Value>
+                                  <Style>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>GArea_</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <BackgroundColor>WhiteSmoke</BackgroundColor>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <ColSpan>5</ColSpan>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell />
+                    <TablixCell />
+                    <TablixCell />
+                    <TablixCell />
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox120">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox120</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <BackgroundColor>WhiteSmoke</BackgroundColor>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox110">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox110</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <BackgroundColor>WhiteSmoke</BackgroundColor>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox111">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox111</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <BackgroundColor>WhiteSmoke</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1669,54 +1849,45 @@
                       </TablixMembers>
                     </TablixMember>
                     <TablixMember>
-                      <Group Name="shift_LSCStaff">
+                      <Group Name="GArea_">
                         <GroupExpressions>
-                          <GroupExpression>=Fields!shift_LSCStaff.Value</GroupExpression>
+                          <GroupExpression>=Fields!GArea_.Value</GroupExpression>
                         </GroupExpressions>
                       </Group>
                       <SortExpressions>
                         <SortExpression>
-                          <Value>=Fields!shift_LSCStaff.Value</Value>
+                          <Value>=Fields!GArea_.Value</Value>
                         </SortExpression>
                       </SortExpressions>
                       <TablixMembers>
                         <TablixMember>
-                          <Group Name="shift_LSCStaff1">
-                            <GroupExpressions>
-                              <GroupExpression>=Fields!shift_LSCStaff.Value</GroupExpression>
-                            </GroupExpressions>
-                          </Group>
-                          <SortExpressions>
-                            <SortExpression>
-                              <Value>=Fields!shift_LSCStaff.Value</Value>
-                            </SortExpression>
-                          </SortExpressions>
                           <TablixHeader>
                             <Size>2.54cm</Size>
                             <CellContents>
-                              <Textbox Name="shift_LSCStaff1">
+                              <Textbox Name="Textbox116">
                                 <CanGrow>true</CanGrow>
                                 <KeepTogether>true</KeepTogether>
                                 <Paragraphs>
                                   <Paragraph>
                                     <TextRuns>
                                       <TextRun>
-                                        <Value>=Fields!shift_LSCStaff.Value</Value>
+                                        <Value />
                                         <Style>
-                                          <FontSize>7pt</FontSize>
                                           <FontWeight>Bold</FontWeight>
                                         </Style>
                                       </TextRun>
                                     </TextRuns>
-                                    <Style />
+                                    <Style>
+                                      <TextAlign>Center</TextAlign>
+                                    </Style>
                                   </Paragraph>
                                 </Paragraphs>
-                                <rd:DefaultName>shift_LSCStaff1</rd:DefaultName>
+                                <rd:DefaultName>Textbox116</rd:DefaultName>
                                 <Style>
                                   <Border>
                                     <Style>None</Style>
                                   </Border>
-                                  <BackgroundColor>Gainsboro</BackgroundColor>
+                                  <BackgroundColor>WhiteSmoke</BackgroundColor>
                                   <PaddingLeft>2pt</PaddingLeft>
                                   <PaddingRight>2pt</PaddingRight>
                                   <PaddingTop>2pt</PaddingTop>
@@ -1727,40 +1898,93 @@
                           </TablixHeader>
                           <TablixMembers>
                             <TablixMember>
-                              <Group Name="Posted_Statement_Line__Tender_Type_Name_">
-                                <GroupExpressions>
-                                  <GroupExpression>=Fields!Posted_Statement_Line__Tender_Type_Name_.Value</GroupExpression>
-                                </GroupExpressions>
-                              </Group>
-                              <SortExpressions>
-                                <SortExpression>
-                                  <Value>=Fields!Posted_Statement_Line__Tender_Type_Name_.Value</Value>
-                                </SortExpression>
-                              </SortExpressions>
                               <TablixHeader>
                                 <Size>2.1969cm</Size>
                                 <CellContents>
-                                  <Textbox Name="Posted_Statement_Line__Tender_Type_Name_1">
+                                  <Textbox Name="Textbox25">
                                     <CanGrow>true</CanGrow>
                                     <KeepTogether>true</KeepTogether>
                                     <Paragraphs>
                                       <Paragraph>
                                         <TextRuns>
                                           <TextRun>
-                                            <Value>=Fields!Posted_Statement_Line__Tender_Type_Name_.Value</Value>
+                                            <Value />
                                             <Style>
                                               <FontSize>7pt</FontSize>
+                                              <FontWeight>Bold</FontWeight>
                                             </Style>
                                           </TextRun>
                                         </TextRuns>
                                         <Style />
                                       </Paragraph>
                                     </Paragraphs>
-                                    <rd:DefaultName>Posted_Statement_Line__Tender_Type_Name_1</rd:DefaultName>
+                                    <rd:DefaultName>Textbox24</rd:DefaultName>
                                     <Style>
                                       <Border>
                                         <Style>None</Style>
                                       </Border>
+                                      <BackgroundColor>WhiteSmoke</BackgroundColor>
+                                      <PaddingLeft>2pt</PaddingLeft>
+                                      <PaddingRight>2pt</PaddingRight>
+                                      <PaddingTop>2pt</PaddingTop>
+                                      <PaddingBottom>2pt</PaddingBottom>
+                                    </Style>
+                                  </Textbox>
+                                </CellContents>
+                              </TablixHeader>
+                            </TablixMember>
+                          </TablixMembers>
+                          <KeepWithGroup>After</KeepWithGroup>
+                        </TablixMember>
+                        <TablixMember>
+                          <Group Name="shift_LSCStaff">
+                            <GroupExpressions>
+                              <GroupExpression>=Fields!shift_LSCStaff.Value</GroupExpression>
+                            </GroupExpressions>
+                          </Group>
+                          <SortExpressions>
+                            <SortExpression>
+                              <Value>=Fields!shift_LSCStaff.Value</Value>
+                            </SortExpression>
+                          </SortExpressions>
+                          <TablixMembers>
+                            <TablixMember>
+                              <Group Name="shift_LSCStaff1">
+                                <GroupExpressions>
+                                  <GroupExpression>=Fields!shift_LSCStaff.Value</GroupExpression>
+                                </GroupExpressions>
+                              </Group>
+                              <SortExpressions>
+                                <SortExpression>
+                                  <Value>=Fields!shift_LSCStaff.Value</Value>
+                                </SortExpression>
+                              </SortExpressions>
+                              <TablixHeader>
+                                <Size>2.54cm</Size>
+                                <CellContents>
+                                  <Textbox Name="shift_LSCStaff1">
+                                    <CanGrow>true</CanGrow>
+                                    <KeepTogether>true</KeepTogether>
+                                    <Paragraphs>
+                                      <Paragraph>
+                                        <TextRuns>
+                                          <TextRun>
+                                            <Value>=Fields!shift_LSCStaff.Value</Value>
+                                            <Style>
+                                              <FontSize>8pt</FontSize>
+                                              <FontWeight>Bold</FontWeight>
+                                            </Style>
+                                          </TextRun>
+                                        </TextRuns>
+                                        <Style />
+                                      </Paragraph>
+                                    </Paragraphs>
+                                    <rd:DefaultName>shift_LSCStaff1</rd:DefaultName>
+                                    <Style>
+                                      <Border>
+                                        <Style>None</Style>
+                                      </Border>
+                                      <BackgroundColor>Lavender</BackgroundColor>
                                       <PaddingLeft>2pt</PaddingLeft>
                                       <PaddingRight>2pt</PaddingRight>
                                       <PaddingTop>2pt</PaddingTop>
@@ -1771,81 +1995,91 @@
                               </TablixHeader>
                               <TablixMembers>
                                 <TablixMember>
-                                  <Group Name="Details" />
-                                  <Visibility>
-                                    <Hidden>=Count(Fields!Posted_Statement_Line__Tender_Type_Card_No__.Value)=0</Hidden>
-                                  </Visibility>
+                                  <Group Name="Posted_Statement_Line__Tender_Type_Name_">
+                                    <GroupExpressions>
+                                      <GroupExpression>=Fields!Posted_Statement_Line__Tender_Type_Name_.Value</GroupExpression>
+                                    </GroupExpressions>
+                                  </Group>
+                                  <SortExpressions>
+                                    <SortExpression>
+                                      <Value>=Fields!Posted_Statement_Line__Tender_Type_Name_.Value</Value>
+                                    </SortExpression>
+                                  </SortExpressions>
+                                  <TablixHeader>
+                                    <Size>2.1969cm</Size>
+                                    <CellContents>
+                                      <Textbox Name="Posted_Statement_Line__Tender_Type_Name_1">
+                                        <CanGrow>true</CanGrow>
+                                        <KeepTogether>true</KeepTogether>
+                                        <Paragraphs>
+                                          <Paragraph>
+                                            <TextRuns>
+                                              <TextRun>
+                                                <Value>=Fields!Posted_Statement_Line__Tender_Type_Name_.Value</Value>
+                                                <Style>
+                                                  <FontSize>7pt</FontSize>
+                                                </Style>
+                                              </TextRun>
+                                            </TextRuns>
+                                            <Style />
+                                          </Paragraph>
+                                        </Paragraphs>
+                                        <rd:DefaultName>Posted_Statement_Line__Tender_Type_Name_1</rd:DefaultName>
+                                        <Style>
+                                          <Border>
+                                            <Style>None</Style>
+                                          </Border>
+                                          <PaddingLeft>2pt</PaddingLeft>
+                                          <PaddingRight>2pt</PaddingRight>
+                                          <PaddingTop>2pt</PaddingTop>
+                                          <PaddingBottom>2pt</PaddingBottom>
+                                        </Style>
+                                      </Textbox>
+                                    </CellContents>
+                                  </TablixHeader>
+                                  <TablixMembers>
+                                    <TablixMember>
+                                      <Group Name="Details" />
+                                      <Visibility>
+                                        <Hidden>=Count(Fields!Posted_Statement_Line__Tender_Type_Card_No__.Value)=0</Hidden>
+                                      </Visibility>
+                                    </TablixMember>
+                                  </TablixMembers>
                                 </TablixMember>
                               </TablixMembers>
                             </TablixMember>
-                          </TablixMembers>
-                        </TablixMember>
-                        <TablixMember>
-                          <TablixHeader>
-                            <Size>2.54cm</Size>
-                            <CellContents>
-                              <Textbox Name="Textbox1081">
-                                <CanGrow>true</CanGrow>
-                                <KeepTogether>true</KeepTogether>
-                                <Paragraphs>
-                                  <Paragraph>
-                                    <TextRuns>
-                                      <TextRun>
-                                        <Value>=Parameters!l_SubTotal.Value</Value>
-                                        <Style>
-                                          <FontSize>7pt</FontSize>
-                                          <FontWeight>Bold</FontWeight>
-                                        </Style>
-                                      </TextRun>
-                                    </TextRuns>
-                                    <Style />
-                                  </Paragraph>
-                                </Paragraphs>
-                                <rd:DefaultName>Textbox1081</rd:DefaultName>
-                                <Style>
-                                  <Border>
-                                    <Style>None</Style>
-                                  </Border>
-                                  <BottomBorder>
-                                    <Color>White</Color>
-                                    <Style>Solid</Style>
-                                    <Width>6.25pt</Width>
-                                  </BottomBorder>
-                                  <BackgroundColor>White</BackgroundColor>
-                                  <PaddingLeft>2pt</PaddingLeft>
-                                  <PaddingRight>2pt</PaddingRight>
-                                  <PaddingTop>2pt</PaddingTop>
-                                  <PaddingBottom>2pt</PaddingBottom>
-                                </Style>
-                              </Textbox>
-                            </CellContents>
-                          </TablixHeader>
-                          <TablixMembers>
                             <TablixMember>
                               <TablixHeader>
-                                <Size>2.1969cm</Size>
+                                <Size>2.54cm</Size>
                                 <CellContents>
-                                  <Textbox Name="Textbox1082">
+                                  <Textbox Name="Textbox1081">
                                     <CanGrow>true</CanGrow>
                                     <KeepTogether>true</KeepTogether>
                                     <Paragraphs>
                                       <Paragraph>
                                         <TextRuns>
                                           <TextRun>
-                                            <Value />
+                                            <Value>=Parameters!l_SubTotal.Value</Value>
                                             <Style>
                                               <FontSize>7pt</FontSize>
+                                              <FontWeight>Bold</FontWeight>
                                             </Style>
                                           </TextRun>
                                         </TextRuns>
                                         <Style />
                                       </Paragraph>
                                     </Paragraphs>
-                                    <rd:DefaultName>Textbox1082</rd:DefaultName>
+                                    <rd:DefaultName>Textbox1081</rd:DefaultName>
                                     <Style>
                                       <Border>
                                         <Style>None</Style>
                                       </Border>
+                                      <BottomBorder>
+                                        <Color>White</Color>
+                                        <Style>Solid</Style>
+                                        <Width>6.25pt</Width>
+                                      </BottomBorder>
+                                      <BackgroundColor>White</BackgroundColor>
                                       <PaddingLeft>2pt</PaddingLeft>
                                       <PaddingRight>2pt</PaddingRight>
                                       <PaddingTop>2pt</PaddingTop>
@@ -1854,9 +2088,45 @@
                                   </Textbox>
                                 </CellContents>
                               </TablixHeader>
+                              <TablixMembers>
+                                <TablixMember>
+                                  <TablixHeader>
+                                    <Size>2.1969cm</Size>
+                                    <CellContents>
+                                      <Textbox Name="Textbox1082">
+                                        <CanGrow>true</CanGrow>
+                                        <KeepTogether>true</KeepTogether>
+                                        <Paragraphs>
+                                          <Paragraph>
+                                            <TextRuns>
+                                              <TextRun>
+                                                <Value />
+                                                <Style>
+                                                  <FontSize>7pt</FontSize>
+                                                </Style>
+                                              </TextRun>
+                                            </TextRuns>
+                                            <Style />
+                                          </Paragraph>
+                                        </Paragraphs>
+                                        <rd:DefaultName>Textbox1082</rd:DefaultName>
+                                        <Style>
+                                          <Border>
+                                            <Style>None</Style>
+                                          </Border>
+                                          <PaddingLeft>2pt</PaddingLeft>
+                                          <PaddingRight>2pt</PaddingRight>
+                                          <PaddingTop>2pt</PaddingTop>
+                                          <PaddingBottom>2pt</PaddingBottom>
+                                        </Style>
+                                      </Textbox>
+                                    </CellContents>
+                                  </TablixHeader>
+                                </TablixMember>
+                              </TablixMembers>
+                              <KeepWithGroup>Before</KeepWithGroup>
                             </TablixMember>
                           </TablixMembers>
-                          <KeepWithGroup>Before</KeepWithGroup>
                         </TablixMember>
                       </TablixMembers>
                     </TablixMember>
@@ -2017,8 +2287,8 @@
             <DataSetName>DataSet_Result</DataSetName>
             <Top>4.78367cm</Top>
             <Left>0.3175cm</Left>
-            <Height>2.9715cm</Height>
-            <Width>25.40938cm</Width>
+            <Height>3.6065cm</Height>
+            <Width>25.40933cm</Width>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -2029,25 +2299,25 @@
             <TablixBody>
               <TablixColumns>
                 <TablixColumn>
-                  <Width>0.91667in</Width>
+                  <Width>1.02914in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.91667in</Width>
+                  <Width>1.02914in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.91667in</Width>
+                  <Width>1.02914in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1in</Width>
+                  <Width>1.11247in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1in</Width>
+                  <Width>1.11247in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1in</Width>
+                  <Width>1.11247in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1in</Width>
+                  <Width>1.11247in</Width>
                 </TablixColumn>
               </TablixColumns>
               <TablixRows>
@@ -2559,7 +2829,7 @@
             <Top>1.22206in</Top>
             <Left>0.13717in</Left>
             <Height>0.5125in</Height>
-            <Width>6.75in</Width>
+            <Width>7.53729in</Width>
             <ZIndex>1</ZIndex>
             <Style>
               <Border>
@@ -2571,7 +2841,7 @@
             <TablixBody>
               <TablixColumns>
                 <TablixColumn>
-                  <Width>1.18334in</Width>
+                  <Width>1.87213in</Width>
                 </TablixColumn>
                 <TablixColumn>
                   <Width>2.29487in</Width>
@@ -2878,8 +3148,8 @@
             </TablixRowHierarchy>
             <Top>0.06043in</Top>
             <Left>0.09838in</Left>
-            <Height>0.76806in</Height>
-            <Width>3.4782in</Width>
+            <Height>0.76804in</Height>
+            <Width>4.167in</Width>
             <ZIndex>2</ZIndex>
             <Style>
               <Border>
@@ -2891,7 +3161,7 @@
         <Height>4.24864in</Height>
         <Style />
       </Body>
-      <Width>10.15472in</Width>
+      <Width>10.41934in</Width>
       <Page>
         <PageHeader>
           <Height>0.59961in</Height>
@@ -3551,6 +3821,9 @@ End Function
         </Field>
         <Field Name="Posted_Statement_Line__Difference_in_LCY_Format">
           <DataField>Posted_Statement_Line__Difference_in_LCY_Format</DataField>
+        </Field>
+        <Field Name="GArea_">
+          <DataField>GArea_</DataField>
         </Field>
         <Field Name="shift_LSCStaff">
           <DataField>shift_LSCStaff</DataField>
