@@ -137,9 +137,6 @@ report 50050 "DX Sales report by shift"
                     transationHeade: Record "LSC Transaction Header";
                     PaymentEntry: Record "LSC Trans. Payment Entry";
                     "LSCPOSTerminalGroupLine": Record "LSC POS Terminal Group Line";
-
-
-
                 begin
                     Clear(transationHeade);
                     transationHeade.SetRange("Posted Statement No.", "Posted Statement Line"."Statement No.");
@@ -148,13 +145,12 @@ report 50050 "DX Sales report by shift"
                         Clear(PaymentEntry);
                         PaymentEntry.SetRange("Transaction No.", transationHeade."Transaction No.");
                         PaymentEntry.SetRange("Tender Type", "Posted Statement Line"."Tender Type");
+                        PaymentEntry.SetRange("Staff ID", "Posted Statement Line"."Staff ID");
                         if PaymentEntry.FindFirst() then begin
                             Clear(LSCPOSTerminalGroupLine);
                             LSCPOSTerminalGroupLine.SetRange("Store No.", transationHeade."Store No.");
                             LSCPOSTerminalGroupLine.SetRange("POS Terminal No.", PaymentEntry."POS Terminal No.");
                             if LSCPOSTerminalGroupLine.FindFirst() then GArea := LSCPOSTerminalGroupLine."POS Terminal Group Code";
-
-
 
                         end;
 

@@ -204,8 +204,8 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report DX Sales report by shift - ReportLabel l_Page</note>
         </trans-unit>
         <trans-unit id="Report 1990636219 - ReportLabel 2266119830" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Sales report by shifts</source>
-          <target state="translated">Informe de ventas por turnos</target>
+          <source>Treasury Report</source>
+          <target state="translated">Reporte de Tesoreria</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report DX Sales report by shift - ReportLabel l_ReportName</note>
         </trans-unit>
